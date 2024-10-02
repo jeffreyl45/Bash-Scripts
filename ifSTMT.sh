@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# -n tests if something is not empty
 if [ -n "Hello" ] ; then
     echo "Hello is bigger than zero"
 fi

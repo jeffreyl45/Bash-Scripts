@@ -4,6 +4,7 @@ for num in {10..0} ; do
                 array+=($num)
         fi
 done
+# @ means all of them
 echo ${array[@]}
 for elem in ${array[@]}; do
         echo "$elem"
